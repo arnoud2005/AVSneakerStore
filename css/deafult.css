@@ -1,0 +1,28 @@
+header {
+    z-index: 1;
+}
+
+/* small */
+@media screen and (max-width: 767px){
+    .collapse:not(.show) {
+        display: block;
+    }
+
+    header ul {
+        padding-left: 0;
+    }
+    header ul li {
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+    }
+}
+
+/* medium */
+@media screen and (min-width: 768px){
+    
+}
+
+/* large  */
+@media screen and (min-width: 1024px){
+    
+}

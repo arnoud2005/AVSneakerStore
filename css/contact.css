@@ -1,0 +1,32 @@
+main {
+
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.field{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.field.message {
+    margin-top: 1em;
+}
+
+label{
+    width: 50%;
+    margin-top: 1em;
+}
+
+button {
+    float: right;
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    color: black;
+    background-color: aqua;
+}

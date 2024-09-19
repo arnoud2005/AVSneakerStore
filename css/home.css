@@ -1,0 +1,91 @@
+/* header */
+
+.navbar-brand {
+    color: white;
+}
+.navbar-toggler {
+    background: white;
+}
+
+.navbar-collapse {
+     float: right;
+}
+
+.nav-link {
+    color: white;
+}
+
+.banner-wrapper{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+}
+.banner img {
+    max-width: 100%;
+}
+
+.brands-wrapper {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(217, 246, 255);
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.brand {
+    display: flex;
+    flex-direction: column;
+}
+
+.brand img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.brand p {
+    text-align: center;
+    color: black;
+    font-weight: 600;
+}
+
+.trends-wrapper, .new-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.trend, .new {
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.trend img, .new img {
+    max-width: 100%;
+    height: 100px;
+}
+
+.categories-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.category {
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+    width: 100%;
+}
+
+.category p{
+    color: white;
+    font-size: 2em;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
